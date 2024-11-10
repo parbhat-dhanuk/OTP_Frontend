@@ -1,8 +1,8 @@
 import axios from "axios"
-import { baseUrl } from "../config/config"
+
 
 const API = axios.create({
-    // baseURL:"https://react30.onrender.com/api/user"
-    baseURL:baseUrl
+    
+    baseURL:"https://otp-backend-d3cn.onrender.com"
 })
 export default API
